@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "timestamp": "2021-08-16T18:00:00Z",
+    "model_version": "fno-v1.0-32x32",
+    "trigger_event": "historical_replay_2021"
+  },
+  "prediction": {
+    "location": "Ghatal, West Bengal",
+    "danger_level": "CRITICAL",
+    "water_depth_meters": 4.2,
+    "confidence_pct": 87.5,
+    "time_to_peak_hours": 14
+  },
+  "spatial_data": {
+    "grid_resolution": "32x32",
+    "bounding_box": [22.60, 87.65, 22.75, 87.80],
+    "flood_extent_geojson": "https://storage.googleapis.com/poseidon-demo-bucket/ghatal_extent_aug16.geojson"
+  }
+}

@@ -1,0 +1,11 @@
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore API Keys
+.env
+
+# Ignore heavy generated audio/cache files
+__pycache__/
+ghatal_alert.mp3
+*.log
